@@ -103,7 +103,6 @@ public class Main {
         NumberFormat currency = NumberFormat.getCurrencyInstance(fi);
         String formattedMortgage = currency.format(mortgage);
 
-        // Print the mortgage to terminal
         System.out.println("Mortgage: " + formattedMortgage);
     }
 }
