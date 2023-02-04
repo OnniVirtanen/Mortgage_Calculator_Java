@@ -94,8 +94,9 @@ public class Main {
         }
     }
 
+    // Calculate mortgage by using mortgage formula
     public static void calculateMortgage(int principal, double monthlyInterestRate, int period) {
-        // Calculate mortgage by using mortgage formula
+
         double mortgage = principal * monthlyInterestRate * (Math.pow(1 + monthlyInterestRate, period) ) /
                 (Math.pow(1 + monthlyInterestRate, period) - 1);
 
