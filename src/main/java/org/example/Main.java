@@ -12,6 +12,7 @@ public class Main {
         calculateMortgage(loanAmount(), monthlyInterestRate(), monthsForPayment());
     }
 
+    // Ask user for a loan amount.
     public static int loanAmount() {
         int principal = 0;
         while (true) {
@@ -36,6 +37,7 @@ public class Main {
         }
     }
 
+    // Ask user for a yearly interest rate and return monthly interest rate.
     public static double monthlyInterestRate() {
         final float MONTHS_IN_YEAR = 12;
         final float PERCENT = 100;
@@ -65,6 +67,7 @@ public class Main {
         }
     }
 
+    // Ask user for years for payment and return months for payment.
     public static int monthsForPayment() {
         int period = 0;
         while (true) {
